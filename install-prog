@@ -2,4 +2,6 @@
 2.
 3. git clone https://github.com/Microsoft/vcpkg.git
 4. добавить прокси
+git config --global http.proxy http://172.16.160.10:8070
+
 5. .\bootstrap-vcpkg.bat
