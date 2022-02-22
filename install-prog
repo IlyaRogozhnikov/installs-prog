@@ -1,0 +1,5 @@
+1.
+2.
+3. git clone https://github.com/Microsoft/vcpkg.git
+4. добавить прокси
+5. .\bootstrap-vcpkg.bat
