@@ -10,3 +10,10 @@
 
 7. Checkout PROJ sources
   git clone https://github.com/OSGeo/PROJ.git
+  
+  8. mkdir build_vs2019
+  cd build_vs2019
+  
+  cmake -DCMAKE_TOOLCHAIN_FILE=D:\msggo\vcpkg\scripts\buildsystems\vcpkg.cmake -DBUILD_SHARED_LIBS ..
+
+D:\msggo\PROJ\build_vs2019>cmake -DCMAKE_TOOLCHAIN_FILE=C:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake ..
