@@ -2,9 +2,11 @@
 2.
 3. git clone https://github.com/Microsoft/vcpkg.git
 4. добавить прокси
-git config --global http.proxy http://172.16.160.10:8070
+  git config --global http.proxy http://172.16.160.10:8070
 
 5. .\bootstrap-vcpkg.bat
-
 6. Install PROJ dependencies
-vcpkg.exe install sqlite3[core,tool]:x86-windows tiff:x86-windows curl:x86-windows
+  vcpkg.exe install sqlite3[core,tool]:x86-windows tiff:x86-windows curl:x86-windows
+
+7. Checkout PROJ sources
+  git clone https://github.com/OSGeo/PROJ.git
